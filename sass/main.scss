@@ -1,0 +1,86 @@
+@import "compass/css3";
+
+//typography overrides
+p { font-size: 0.8em; }
+h6 { font-size: 12px; }
+
+#top-elements { height: 90px; }
+#logo { margin-top: 20px; }
+#location-profile { 
+	margin-top: 25px; 
+	p {
+		line-height: 0.6em;
+	}
+}
+
+//nav overrides
+$top-bar-gray-lt: #999;
+$nav-height: 25px;
+$dropdown-color: #11719C;
+$dropdown-border: 2px solid $dropdown-color;
+
+#main-nav {
+	background: $top-bar-gray-lt;
+	height: $nav-height;
+}
+
+.top-bar {
+	background: $top-bar-gray-lt;
+	height: $nav-height;
+}
+
+.top-bar-section ul {
+	background: $top-bar-gray-lt;
+	font-size: 14px;
+	line-height: $nav-height;
+
+	li > a {
+		font-weight: normal;
+	}
+
+	li.hover > a {
+		background: #666;
+	}
+}
+
+.top-bar-section li a:not(.button) {
+	background: $top-bar-gray-lt;
+	line-height: $nav-height;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border-right: solid 1px #FFF;
+	border-left: none;
+	height: $nav-height;
+}
+
+//dropdown menus
+
+.dropdown {
+	border-right: $dropdown-border;
+	border-bottom: $dropdown-border;
+	border-left: $dropdown-border;
+}
+
+.dropdown ul, .dropdown li a:not(.button) {
+	background: #FFF;
+}
+
+.top-bar-section .dropdown li a {
+	color: $dropdown-color;
+}
+
+.top-bar-section .has-dropdown > a::after {
+	top: 13.5px;
+}
+
+//links
+.arrow-r:after { 
+	content: url('../img/link-arrow_r.png');
+	padding: 6px;
+}
+
+//random graphic classes
+.border-r {
+	border-right: 1px solid #CCC;
+}
