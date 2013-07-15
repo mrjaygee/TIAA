@@ -2004,13 +2004,13 @@ td {
 /* Default Link Styles */
 /* line 151, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_type.scss */
 a {
-  color: #2ba6cb;
+  color: #0b7299;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 157, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #2795b6;
+  color: #096081;
 }
 /* line 159, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_type.scss */
 a img {
@@ -2414,13 +2414,13 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #0b7299;
+  border-color: #084f69;
   color: white;
 }
 /* line 123, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #2284a1;
+  background-color: #084f69;
 }
 /* line 134, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
@@ -2510,8 +2510,8 @@ button.right-align, .button.right-align {
 }
 /* line 189, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #0b7299;
+  border-color: #084f69;
   color: white;
   cursor: default;
   opacity: 0.6;
@@ -2520,7 +2520,7 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
 }
 /* line 123, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #2284a1;
+  background-color: #084f69;
 }
 /* line 134, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2528,7 +2528,7 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 147, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #2ba6cb;
+  background-color: #0b7299;
 }
 /* line 190, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
@@ -3528,7 +3528,7 @@ form.custom .custom.disabled {
 }
 /* line 79, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_split-buttons.scss */
 .split.button span {
-  border-left-color: #1e728c;
+  border-left-color: #063d52;
 }
 /* line 116, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_split-buttons.scss */
 .split.button span {
@@ -4481,12 +4481,12 @@ form.custom .custom.disabled {
 }
 /* line 246, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: #2ba6cb;
+  background: #0b7299;
   font-size: 0.8125em;
 }
 /* line 249, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.hover {
-  background: #2284a1;
+  background: #084f69;
 }
 /* line 253, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
@@ -5619,8 +5619,8 @@ form.custom .custom.disabled {
   position: relative;
   padding: 0.6875em 1.3125em 0.75em 0.6875em;
   font-size: 0.875em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #0b7299;
+  border-color: #084f69;
   color: white;
 }
 /* line 97, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_alert-boxes.scss */
@@ -5697,7 +5697,7 @@ form.custom .custom.disabled {
 .breadcrumbs > * a,
 .breadcrumbs > * span {
   text-transform: uppercase;
-  color: #2ba6cb;
+  color: #0b7299;
 }
 /* line 69, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
@@ -5771,7 +5771,7 @@ kbd {
   position: relative;
   padding: 0.1875em 0.625em 0.25em;
   font-size: 0.875em;
-  background-color: #2ba6cb;
+  background-color: #0b7299;
   color: white;
 }
 /* line 77, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_labels.scss */
@@ -5858,14 +5858,14 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
 }
 /* line 57, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a {
-  background: #2ba6cb;
+  background: #0b7299;
   color: white;
   font-weight: bold;
   cursor: default;
 }
 /* line 64, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-  background: #2ba6cb;
+  background: #0b7299;
 }
 /* line 108, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_pagination.scss */
 ul.pagination li {
@@ -5919,10 +5919,10 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #2284a1;
+  border-color: #084f69;
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: #2ba6cb;
+  background: #0b7299;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
@@ -6022,7 +6022,7 @@ ul.pagination li {
 }
 /* line 54, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_progress-bars.scss */
 .progress .meter {
-  background: #2ba6cb;
+  background: #0b7299;
   height: 100%;
   display: block;
 }
@@ -6082,7 +6082,7 @@ ul.pagination li {
 /* line 43, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_side-nav.scss */
 .side-nav li a {
   display: block;
-  color: #2ba6cb;
+  color: #0b7299;
 }
 /* line 48, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child {
@@ -6131,7 +6131,7 @@ ul.pagination li {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
   font-weight: bold;
-  background: #2ba6cb;
+  background: #0b7299;
   padding: 0.1875em 0.5625em;
   cursor: default;
   color: white;
@@ -6397,12 +6397,12 @@ ul.pagination li {
 table {
   background: white;
   margin-bottom: 1.25em;
-  border: solid 1px #dddddd;
+  border: solid 0 #dddddd;
 }
 /* line 42, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tables.scss */
 table thead,
 table tfoot {
-  background: whitesmoke;
+  background: #c3c7ca;
   font-weight: bold;
 }
 /* line 48, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tables.scss */
@@ -6412,19 +6412,19 @@ table tfoot tr th,
 table tfoot tr td {
   padding: 0.5em 0.625em 0.625em;
   font-size: 0.875em;
-  color: #222222;
+  color: #333333;
   text-align: left;
 }
 /* line 59, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tables.scss */
 table tr th,
 table tr td {
-  padding: 0.5625em 0.625em;
-  font-size: 0.875em;
+  padding: 0.8125em 0.625em;
+  font-size: 0.8125em;
   color: #222222;
 }
 /* line 67, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: #f9f9f9;
+  background: white;
 }
 /* line 74, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tables.scss */
 table thead tr th,
@@ -6450,8 +6450,8 @@ table tfoot tr td {
 }
 /* line 32, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
-  box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
+  -webkit-box-shadow: 0 0 6px 1px rgba(11, 114, 153, 0.5);
+  box-shadow: 0 0 6px 1px rgba(11, 114, 153, 0.5);
 }
 /* line 49, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -6474,8 +6474,8 @@ a.th {
 }
 /* line 36, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #196177;
-  color: #2ba6cb;
+  border-bottom: dotted 1px #042b3a;
+  color: #0b7299;
 }
 /* line 42, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -6512,8 +6512,8 @@ a.th {
 }
 /* line 71, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  color: #2ba6cb !important;
-  border-bottom: dotted 1px #196177 !important;
+  color: #0b7299 !important;
+  border-bottom: dotted 1px #042b3a !important;
 }
 
 /* line 77, ../../../.rvm/gems/ruby-2.0.0-p195/gems/zurb-foundation-4.2.3/scss/foundation/components/_tooltips.scss */

@@ -1,3 +1,8 @@
+<?php 
+// *********** 	SNIPPETS ***********
+$tabmsg1 = "The last three months of distributions are shown by default."; // Boilerplate message for top of tab table
+
+?>
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -11,77 +16,85 @@
 </head>
 <body>
 	<?php include('includes/header.php'); ?>
-	<div class="row">
-		<div class="large-8 columns">
-			<h3>The Grid</h3>
-
-			<!-- Grid Example -->
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="panel">
-						<p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+	<div id="main-content">	
+		<div class="row">
+			<div class="large-12 columns">
+				<h3>Distributions &amp; Loans</h3>
+	
+				<!-- Grid Example -->
+				<div class="row">
+					<div class="large-12 columns">
+						<p>See all distributions and loans made over the past two years.</p>
 					</div>
 				</div>
+				<div class="section-container auto" data-section>
+				  <section>
+				    <p class="title" data-section-title><a href="#panel1">Distributions</a></p>
+				    <div class="content" data-section-content>
+				      <p><?php echo $tabmsg1; ?></p>
+				      <hr class="texture">
+				      <table>
+				        <thead>
+				          <tr>
+				            <th>Date</th>
+				            <th>Distribution Type</th>
+				            <th width="">Plan</th>
+				            <th width="">Investment Provider</th>
+				            <th width="">Amount</th>
+				          </tr>
+				        </thead>
+				        <tbody>
+							<tr>
+								<td>03/18/2013</td>
+								<td>Rollovers</td>
+								<td>ABC Organization 403(b) Plan</td>
+								<td><a href="#" class="external">TIAA-CREF</a></td>
+								<td>$1,200</td>
+							</tr>
+							<tr>
+								<td>06/04/2013</td>
+								<td>Rollovers</td>
+								<td>ABC Organization 403(b) Plan</td>
+								<td><a href="#" class="external">TIAA-CREF</a></td>
+								<td>$1,200</td>							
+							</tr>
+							<tr>
+								<td>05/25/2011</td>
+								<td>Hardship</td>
+								<td>ABC Organization 457 Plan</td>
+								<td><a href="#" class="external">Vanguard</a></td>
+								<td>$1,200</td>						
+							</tr>
+							<tr>
+								<td>05/03/2011</td>
+								<td>Hardship</td>
+								<td>ABC Organization 457 Plan</td>
+								<td><a href="#" class="external">Vanguard</a></td>
+								<td>$1,200</td>						
+							</tr>
+							<tr>
+								<td>03/09/2011</td>
+								<td>Separation from Service</td>
+								<td>ABC Organization 403(b) Plan</td>
+								<td><a href="#" class="external">Vanguard</a></td>
+								<td>$1,200</td>						
+							</tr>
+				        </tbody>
+				      </table>
+				    </div>
+				  </section>
+				  <section>
+				    <p class="title" data-section-title><a href="#panel2">Loan Details</a></p>
+				    <div class="content" data-section-content>
+				      <p><?php echo $tabmsg1; ?></p>
+				      <hr>
+				    </div>
+				  </section>
+				</div>		
 			</div>
-			<div class="row">
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-				<div class="large-6 columns">
-					<div class="panel">
-						<p>Six columns</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-				<div class="large-4 columns">
-					<div class="panel">
-						<p>Four columns</p>
-					</div>
-				</div>
-			</div>
-
-			<h3>Buttons</h3>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <p><a href="#" class="small button">Small Button</a></p>
-          <p><a href="#" class="button">Medium Button</a></p>
-          <p><a href="#" class="large button">Large Button</a></p>
-        </div>
-        <div class="large-6 columns">
-          <p><a href="#" class="small alert button">Small Alert Button</a></p>
-          <p><a href="#" class="success button">Medium Success Button</a></p>
-          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
-        </div>
-      </div>
-		</div>
-
-		<div class="large-4 columns">
-			<h4>Getting Started</h4>
-			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-
-			<h4>Other Resources</h4>
-			<p>Once you've exhausted the fun in this document, you should check out:</p>
-			<ul class="disc">
-				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
-				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
-				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
-			</ul>
 		</div>
 	</div>
+	<?php include('includes/footer.php') ?>
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +

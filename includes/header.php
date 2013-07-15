@@ -10,7 +10,11 @@
 			</div>
 			<div class="large-6 columns">
 				<h6>Anne Smith</h6>
-				<p><a href="#" class="arrow-r">Your Profile</a> <a href="#" class="arrow-r">Log Out</a></p>
+				<!--<ul class="inline-list">
+				  <li><a href="#" class="arrow-r">Your Profile</a></li>
+				  <li><a href="#" class="arrow-r">Log Out</a></li>
+				</ul>-->
+				<p><a href="#" class="arrow-r">Your Profile</a> |&nbsp;&nbsp; <a href="#" class="arrow-r">Log Out</a></p>
 			</div>
 		</div>
 	</div>

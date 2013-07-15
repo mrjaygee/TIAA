@@ -1,17 +1,24 @@
 @import "compass/css3";
 
-//typography overrides
-p { font-size: 0.8em; }
+//typography
+p, ul { font-size: 0.8em; }
+h1, h2, h3 { color:#0050A8; }
+h3 { font-weight: normal; }
 h6 { font-size: 12px; }
 
 #top-elements { height: 90px; }
 #logo { margin-top: 20px; }
 #location-profile { 
 	margin-top: 25px; 
-	p {
-		line-height: 0.6em;
+	p, ul {
+		font-size: 11px;
+		line-height: 1.2em;
 	}
+	
+	ul li { padding-right: 1em; }
 }
+
+.align-right { text-align: right; }
 
 //nav overrides
 $top-bar-gray-lt: #999;
@@ -55,7 +62,6 @@ $dropdown-border: 2px solid $dropdown-color;
 }
 
 //dropdown menus
-
 .dropdown {
 	border-right: $dropdown-border;
 	border-bottom: $dropdown-border;
@@ -79,8 +85,61 @@ $dropdown-border: 2px solid $dropdown-color;
 	content: url('../img/link-arrow_r.png');
 	padding: 6px;
 }
+.external:after {
+content: url('../img/external_icon.png');
+padding: 6px;
+}
+
+//main content
+#main-content {
+	background-color: #FAFAFA;
+	padding-bottom: 25px;
+}
+
+//footer
+footer {
+	color: #666;
+	padding: 20px 0;
+	
+	ul { font-size: 11px; }
+	ul li { padding-right: 1.375em; }
+	 p { font-size: 11px; }
+}
+
+//lists
+.inline-list li { 
+	border-right: 1px solid #CCC;
+	&:last-child { border-right: none; padding-right: none; }
+ }
+
+//tabs 
+
+.section-container.auto > section, .section-container.auto > .section { box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .25); }
+
+.section-container.auto > section > .title a, .section-container.auto > .section > .title a {
+padding: 0.9375em;
+font-size: 1em;
+font-weight: 600;
+}
+
+//tables
+table { 
+	width: 100%; 
+}
+table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td {
+	//changing size in _settings causes error. overriding here instead.
+	font-size: 12px;
+}
+tbody tr { 
+	border-bottom: 1px dotted #CCC; 
+}
 
 //random graphic classes
 .border-r {
 	border-right: 1px solid #CCC;
+}
+hr.texture {
+	border: none;
+	background: url('../img/divider1.png') top left repeat-x;
+	padding-bottom: 5px;
 }

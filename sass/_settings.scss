@@ -44,7 +44,7 @@ $default-float: left;
 
 // Colors
 
-// $primary-color: #2ba6cb;
+$primary-color: #0B7299;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
@@ -1129,26 +1129,26 @@ $default-float: left;
 // Background color for the table and even rows
 
 // $table-bg: #fff;
-// $table-even-row-bg: #f9f9f9;
+$table-even-row-bg: #FFF;
 
 // Table cell border style
 
 // $table-border-style: solid;
-// $table-border-size: 1px;
+$table-border-size: 0;
 // $table-border-color: #ddd;
 
 // Table head styles
 
-// $table-head-bg: #f5f5f5;
-// $table-head-font-size: emCalc(14px);
-// $table-head-font-color: #222;
+$table-head-bg: #C3C7CA;
+//$table-head-font-size: emCalc(13);
+$table-head-font-color: #333;
 // $table-head-font-weight: bold;
-// $table-head-padding: emCalc(8px) emCalc(10px) emCalc(10px);
+//$table-head-padding: emCalc(8px) emCalc(10px);
 
 // Row padding and font styles
 
-// $table-row-padding: emCalc(9px) emCalc(10px);
-// $table-row-font-size: emCalc(14px);
+$table-row-padding: emCalc(13px) emCalc(10px);
+$table-row-font-size: emCalc(13px);
 // $table-row-font-color: #222;
 // $table-line-height: emCalc(18px);
 
